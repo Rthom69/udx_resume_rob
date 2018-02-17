@@ -216,12 +216,41 @@ footer .cv-pdf i:hover {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+  
 }
 
 .social-links li a i:hover {
     background: #e84610;
+
 }
 
 #footer-details {
     margin: 20px;
 }
+
+/*----------------------------------------------------------------------Three reasons*/
+.three-reasons-icon {
+    font-size: 26px;
+    color:#e67e22; 
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+    
+    
+}
+ 
+/*----------------------------------------------------------------------personal info*/ 
+
+.bg-color-personal-info {
+    background-color: #868686;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: white;
+    
+}
+
+
+
