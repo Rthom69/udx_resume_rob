@@ -320,6 +320,14 @@ footer .cv-pdf i:hover {
 
 /*----------------------------------------------------------------------work history*/
 
+.work-history-container {
+    margin-bottom: 30px;
+}
+
+.work-history-heading {
+    color: #fafafa;
+}
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -332,6 +340,12 @@ footer .cv-pdf i:hover {
 .timeline-item p {
     padding: 0;
     margin: 0;
+    text-align: justify;
+    
+}
+
+.timeline-item h4 {
+    text-align: justify;
 }
 
 .timeline-item::before {
@@ -357,14 +371,14 @@ footer .cv-pdf i:hover {
     left: -6px;
     border-radius: 12px;
     content: "";
-    background: #fafafa;
+    background: #e98926;
 
 }
 
 /*----------------------------------------------------------------------media queries*/
 
 @media(min-width:992px) {
-    .section-colum {
+    .section-column {
         padding: 0 30px 30px;
         float: none;
         display: table-cell;
